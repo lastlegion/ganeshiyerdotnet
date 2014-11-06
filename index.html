@@ -6,16 +6,85 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+        <title>Ganesh Iyer (@lastlegion) AI, Data Science,Machine Learning, Node.js</title>
+        <meta name="description" content="AI, Data Science,Machine Learning, Node.js, NLP, Computer Science, Information retrieval">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
             body {
                 padding-top: 50px;
                 padding-bottom: 20px;
+                background: #eee;
             }
+            .my-heading{
+            	font-family: 'Josefin Slab', Cambria, Georgia, serif;
+            	
+            }
+            h1.my-heading{
+            	font-size: 90px;
+            }
+            .small-circular{
+				width: 50px;
+				height: 50px;
+				border-radius: 25px;
+			}
+			.small-circular:hover{
+				width: 50px;
+				height: 50px;
+				border-radius: 12px;
+			}
+            .circular {
+				width: 310px;
+				height: 310px;
+				border-radius: 155px;
+				-webkit-border-radius: 170px;
+				-moz-border-radius: 170px;
+				background: url(img/pic.jpeg) no-repeat;
+            }
+            ul#nav {
+				list-style: none;
+				font-size: 18px;
+				margin-top: 120px;
+			}
+			ul#nav li{
+				display: inline-block;
+				width: 108px;
+				background: #dfdfdf;
+				border-radius: 5px;
+				text-align: center;
+				padding: 8px;
+			}
+			ul#nav a{
+				color: #93002d;
+			}
+			ul#nav a:hover{
+				color: #1e5e8f
+			}
+			ul#networks{
+				list-style: none;
+				margin-right: 12px;
+			}
+			ul#networks li{
+				display: inline;
+				margin: 8px;
+			}
+			#nav a{
+				border-top: 1px solid #333;
+				border-bottom: 1px solid #333;
+				width: 150px;
+				padding: 5px 15px;
+				color: #333;
+			}
+			#nav a:hover{
+				border-top: 1px solid #333;
+				border-bottom: 1px solid #333;
+				width: 150px;
+				padding: 5px 15px;
+				color: #333;
+				background: #ccc;
+				text-decoration: none;
+			}
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -26,65 +95,41 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </div>
+
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+	     <div class="col-xs-6" style="padding-left:80px">
+	     	<div class="row">
+	     		<div class="circular"></div>
+	     	</div>
+	     	<div class="row" style="margin-top: 20px">
+		        <ul id="networks">
+					<a href="http://twitter.com/lastlegion" title="Follow me on twitter"><li><img src="http://ganeshiyer.net/images/tweet.png" class="small-circular"/></li></a>
+					<a href="http://www.facebook.com/ganesh.iyer" title="Add me on facebook"><li><img src="http://ganeshiyer.net/images/download.jpg" class="small-circular"/></li></a>
+					<a href='mailto:me-at-ganeshiyer-dot-net' title="Contact me on email"><li><img src='http://ganeshiyer.net/images/mail.png' class="small-circular"/></li></a>
+					<a href='https://plus.google.com/+GaneshIyerrr/' title="Google Plus"><li><img src='http://ganeshiyer.net/images/gplus.png' class="small-circular"/></li></a>
+				</ul>
+			</div>
+         </div>
+	     <div class="col-xs-6" style="padding-right:100px">
+	        <h1  class="my-heading">Ganesh Iyer</h1>
+	        <p>Hi! I am passionate about developing the next generation of "intelligent" applications. I like working on cutting-edge technologies and programming for the web. I use this space to publish my blogs and projects. 
+	Cheers</p>
+	        <p id="nav">
+
+				<a class="nav-btn" href="http://ganeshiyer.net/blog" title="Ganesh Iyer's blog">Blog</a>
+				<a class="nav-btn" href="http://ganeshiyer.net/blog/about/" title="About Ganesh Iyer">About</a>
+				<a class="nav-btn" href="http://ganeshiyer.net/blog/category/labs/" title="Projects">Code</a>
+	       
+        </div>
       </div>
     </div>
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
 
-      <hr>
 
-      <footer>
-        <p>&copy; Company 2014</p>
-      </footer>
+
     </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
